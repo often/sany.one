@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  margin: 0;
+}
+
+div {
+  font-family: sans-serif;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  user-select: none;
+}
+
+div:last-child {
+  background: #000;
+}
+
+a:hover {
+  opacity: .8;
+}
+
+img {
+  max-width: 100%;
+}
